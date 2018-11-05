@@ -48,3 +48,6 @@ php artisan serve
 
 E acesse http://127.0.0.1:8000
 
+Já existe um usuário criado para a realização dos testes.
+email: danielsousamartins@ggmail.com
+senha: 102030
