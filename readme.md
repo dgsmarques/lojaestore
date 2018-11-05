@@ -23,7 +23,7 @@ ver detalhe do produto, criar e ver seus pedidos. Desenvolvido com o Laravel na 
 
 Faça o clone do repositório;
 
-git clone git@github.com:dgsmarques/lojaestore.git
+git clone git@github.com:dgsmarques/lojaestore.git  
 cd lojaestore
 
 Instale as dependencias do projeto
