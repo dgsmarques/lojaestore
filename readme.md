@@ -27,27 +27,27 @@ git clone git@github.com:dgsmarques/lojaestore.git
 cd lojaestore
 
 Instale as dependencias do projeto
-composer install
-npm install
+composer install  
+npm install  
 
-Configure o acesso do banco de dados no arquivo **.env**
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=lojaestore
-DB_USERNAME=root
-DB_PASSWORD=102030
+Configure o acesso do banco de dados no arquivo **.env**  
+DB_HOST=127.0.0.1  
+DB_PORT=3306  
+DB_DATABASE=lojaestore  
+DB_USERNAME=root  
+DB_PASSWORD=102030  
 
-Com o banco de dados configurado execute as migrates e os seeds para carregar as informações ao banco de dados.
+Com o banco de dados configurado execute as migrates e os seeds para carregar as informações ao banco de dados.  
 php artisan migrate --seed
 
-Agora é necessário compilar os componentes do vuejs, css e javascripts
+Agora é necessário compilar os componentes do vuejs, css e javascripts  
 npm run dev
 
-Para rodar o projeto podemos utilizar o servidor que vem junto ao laravel
+Para rodar o projeto podemos utilizar o servidor que vem junto ao laravel  
 php artisan serve
 
 E acesse http://127.0.0.1:8000
 
-Já existe um usuário criado para a realização dos testes.
-email: danielsousamartins@ggmail.com
+Já existe um usuário criado para a realização dos testes.  
+email: danielsousamartins@ggmail.com  
 senha: 102030
